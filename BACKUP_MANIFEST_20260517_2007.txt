@@ -1,0 +1,6 @@
+StudioOS full project backup
+Created: 2026-05-17 20:07 IST
+Source folder: /private/tmp/studioos-view-run
+Includes: React source, backend source, SQL schema files, package files, latest data backup JSON present in source, and latest CSV table exports from APH_codes.
+Excluded: node_modules and dist build output.
+Note: current app header showed tables off, so live Supabase sync is not included beyond local source/data files and exported CSV records.
