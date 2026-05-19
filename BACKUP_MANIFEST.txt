@@ -1,0 +1,15 @@
+StudioOS Latest Complete Database + Sync Backup
+Created: 2026-05-19 09:47:27 IST
+Source repo: /private/tmp/studioos-view-run
+
+Included:
+- Full source copy excluding node_modules, dist, .git, and env secrets
+- All root Supabase SQL schema/migration files
+- Current studio-os-data-backup JSON files found in repo
+- Fresh in-app browser local/session storage dump
+- Sync-link files from src/lib for Supabase/database/storage flows
+
+Important:
+- .env and .env.local are intentionally NOT included for safety.
+- Keep Supabase URL, anon key, bucket names, and table names in a separate secure note.
+- To restore: install dependencies with npm install, paste env values into .env.local, run SQL schemas in Supabase if missing, then npm run dev -- --host 127.0.0.1 --port 5174.

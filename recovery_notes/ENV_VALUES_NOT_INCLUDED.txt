@@ -1,0 +1,10 @@
+ENV VALUES NOT INCLUDED
+This package intentionally excludes .env/.env.local.
+Add these separately before running the app:
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+VITE_SUPABASE_TABLE=studio_workspace
+VITE_SUPABASE_ROW_ID=khanna-case-20260508
+VITE_SUPABASE_FILE_BUCKET=studio-os-files
+VITE_SUPABASE_PORTFOLIO_BUCKET=portfolio-assets
+VITE_SUPABASE_WHITEBOARD_BUCKET=whiteboard-assets
